@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 50px;
+   
+}
+
+.wrapper{
+    max-width: 100%;
+}
+@media screen and (max-width: 1200px) {
+    .container{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,96 @@
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    color: rgb(23, 19, 19);
+    font-family: 'Poppins', sans-serif;    
+    font-weight: 900;
+    font-size: 20px;
+    padding: 0 20px; 
+}
+body {
+    background-color: #ffd0d5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 1920px;
+    min-height: 100vh; 
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px ;
+
+}
+.menu{ 
+    list-style: none;
+    
+}
+.menu .item{
+    display: inline-block;
+    padding:0px 30px;
+}
+.menu li a{
+    transition: all 0.3s ease 0s;
+}
+.menu li a:hover{
+    color: white;
+}
+button{
+    padding: 9px 25px;
+    background-color:white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #0B0C10;
+   
+}
+
+button:hover {
+    background-color: black;
+    color:white
+}
+
+footer {
+    text-align: center;    
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 35px;
+}
+@media screen and (max-width: 1200px) {
+   body{
+    background-color: black;
+    color: white;
+    background-size: cover;
+   }
+   *{
+    color: pink;
+
+   }
+}
+@media screen and (max-width: 700px) {
+    header{
+        flex-direction: column;
+    }
+    button{
+        margin-top: 30px;
+        background-color: pink;
+    }
+    body{
+        background-color:white;
+        color: pink;
+        background-size: cover;
+       }
+       *{
+        color:black;
+       }
+}

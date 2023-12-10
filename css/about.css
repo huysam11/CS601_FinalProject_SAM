@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 50px;
+}
+
+img{
+    max-width: 100%;
+  
+}
+
+
+li a{
+    transition: all 0.3s ease 0s;
+}
+li a:hover{
+    color: white;
+}
+@media screen and (max-width: 1200px) {
+    .container{
+        flex-direction: column;
+    }
+    img{
+        margin-top: 30px;
+    }
+    iframe{
+        margin-top:30px;
+    }
+}
