@@ -1,4 +1,4 @@
-live site: https://huysam11.github.io/CS601_HW2_SAM/html/index.html
+live site: https://huysam11.github.io/CS601_FinalProject_SAM/
 ## Updates
 
 ### 1. Added Pages
