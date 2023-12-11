@@ -7,7 +7,7 @@ h3{
     margin-bottom: 30px;
 }
 
-.container{
+.container2{
    display: flex;
    justify-content: center;
    align-items: center;
@@ -15,10 +15,20 @@ h3{
 }
 
 img{
-    max-width: 100%;
-  
+    max-width: 100%;  
 }
-
+.container {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #8AAAE5;
+    border: 2px solid black; 
+    flex-direction: column;
+}
 
 li a{
     transition: all 0.3s ease 0s;
@@ -26,8 +36,8 @@ li a{
 li a:hover{
     color: white;
 }
-@media screen and (max-width: 1200px) {
-    .container{
+@media screen and (max-width: 1400px) {
+    .container2{
         flex-direction: column;
     }
     img{
@@ -35,5 +45,16 @@ li a:hover{
     }
     iframe{
         margin-top:30px;
+    }
+    
+    * {
+        box-sizing: border-box;
+        font-size: 16px; 
+        width: 100%;
+        margin: 0px;
+        padding: 1px;
+    }
+    .content li{
+        margin-left: 20px;
     }
 }

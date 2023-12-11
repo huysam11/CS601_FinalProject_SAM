@@ -63,7 +63,9 @@ footer {
     text-align: center;    
     margin-top: 20px;
 }
-
-h1{
+h1 {
+    text-align: center;
+    padding: 40px;
+    color: black;
     font-size: 35px;
 }
