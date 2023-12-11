@@ -14,28 +14,28 @@ body {
 
 }
 
-  .container {
+#app {
     width: 100%;
     height: 100%;
     margin: auto;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     border-radius: 5px;
+    align-items: center;
     background-color: #8AAAE5;
-    border: 5px solid black;
+    border: 3px solid black;
     flex-direction: column;
-    
   }
-
+.container{
+  width: 100%;
+}
 
 .image img, .image2 img {
     width: 500px; /* Set a fixed width */
     height: 500px; /* Set a fixed height */
     object-fit: cover; /* Maintain aspect ratio */
-
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 50px; 
     transition: transform 0.3s ease; /* Added transition for smoother scaling */
 
@@ -75,7 +75,39 @@ img:hover {
   }
   .image img,
   .image2 img {
-      max-width: 80%;
-      height: auto; /* Adjust for smaller screens */
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: cover; 
   }
+}
+@media screen and (max-width: 700px) {
+  h1 {
+      font-size: 25px;
+  }
+  h3 {
+      font-size: 20px; 
+      margin-bottom: 8px; 
+  }
+
+ #app {
+      width: 100%;
+      border: 3px solid black;
+  }
+  .image img,
+  .image2 img {
+      max-width: 70%;
+      object-fit: cover; 
+      max-height: 30vh;
+      object-fit: cover; 
+      margin: 25px;
+  
+  }
+
+  * {
+      font-size: 16px; 
+      width: 100%;
+      margin: 0px;
+      padding: 1px;
+  }
+
 }

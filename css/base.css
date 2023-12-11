@@ -16,7 +16,7 @@ body {
     background-repeat: no-repeat;
     margin: 0 auto;
     max-width: 100%;
-    min-height: 100vh; 
+    height: 100%;
     box-sizing: border-box;
     padding: 0 30px;
 }
@@ -27,9 +27,7 @@ header{
     align-items: center;
     padding: 30px ;
     background-color: #8AAAE5;
-    border: 5px solid black;
-
-
+    border: 3px solid black;
 }
 .menu{ 
     list-style: none;
