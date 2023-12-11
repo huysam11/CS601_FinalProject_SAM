@@ -1,14 +1,43 @@
 [
     {
-        "school": "Georgia State University",
-        "major": "Computer Information System",
-        "type": "BS",
-        "year_conferred": 2022
-    },
-    {
-        "school": "Boston University",
-        "major": "Software Development",
-        "type": "MS",
-        "year_conferred": 2024
-    }
+        "coursename": "Web Application Development",
+        "description": "This course focuses on building core competencies in web design and development",
+        "skills": ["Javascript", "HTML", "CSS", "Dynamic CSS", "AJAX with XML and JSON"]
+      },
+      {
+        "name": "Server-Side Web development",
+        "description": "The Server-Side Web Development course concentrates primarily on building web applications",
+        "skills": ["PHP/MySQL", "Node.js/MongoDB", "Express.js", "REST APIs", "Reactjs"]
+      },
+      {
+        "name": "Rich Internet Application Development",
+        "description": "This course concentrates primarily on building rich client web applications in the browser for desktop and mobile devices",
+        "skills": ["HTML5", "Angular JS", "Ionic framework"]
+      },
+      {
+        "name": "Information Structures with Python",
+        "description": "This course delves into object-oriented software design using Python, covering fundamental programming concepts, advanced topics such as inheritance and user interface creation, and their application in analytics and big data.",
+        "skills": ["Python", "OOP"]
+      },
+      {
+        "name": "Data Structures and Algorithms",
+        "description": "This course focuses on fundamental program components, data structure utilization, algorithm implementation, and computational complexity analysis.",
+        "skills": ["Java", "OOP", "Data structures implementation and Algorithmic problem-solving"]
+      },
+      {
+        "name": "Advanced Programming Techniques",
+        "description": "Advanced Java course covering polymorphism, containers, libraries, concurrent programming, and functional programming, with a focus on hands-on project implementation and comprehensive programming tests",
+        "skills": ["Java", "Polymorphism and container utilization", "Concurrent programming", "Functional programming principles", "TDD"]
+      },
+      {
+        "name": "Software Design and Patterns",
+        "description": "Software design principles, the object-oriented paradigm, unified modeling language; creational, structural, and behavioral design patterns; OO analysis and design; implementation of semester project.",
+        "skills": ["UML", "Software design", "OO paradigm", "OOAD", "Creational, structural, and behavioral design patterns"]
+      },
+      {
+        "name": "Information Systems Analysis and Design",
+        "description": "Object-oriented methods of information systems analysis and design for organizations with data-processing needs",
+        "skills": ["System feasibility", "Requirements analysis", "Database utilization", "Unified Modeling Language", "Software system architecture, design, and implementation", "Management", "Project control", "Systems-level testing"]
+      }
 ]
+
