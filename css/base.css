@@ -11,11 +11,11 @@
     padding: 0 20px; 
 }
 body {
-    background-color: #ffd0d5;
+    background-color: #FCF6F5;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0 auto;
-    max-width: 1920px;
+    max-width: 100%;
     min-height: 100vh; 
     box-sizing: border-box;
     padding: 0 30px;
@@ -26,6 +26,9 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px ;
+    background-color: #8AAAE5;
+    border: 5px solid black;
+
 
 }
 .menu{ 
@@ -44,53 +47,25 @@ header{
 }
 button{
     padding: 9px 25px;
-    background-color:white;
+    background-color: black;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    color: #0B0C10;
+    color: white;
    
 }
 
 button:hover {
-    background-color: black;
-    color:white
+    background-color: white;
+    color: black;
 }
 
 footer {
     text-align: center;    
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 h1{
     font-size: 35px;
-}
-@media screen and (max-width: 1200px) {
-   body{
-    background-color: black;
-    color: white;
-    background-size: cover;
-   }
-   *{
-    color: pink;
-
-   }
-}
-@media screen and (max-width: 700px) {
-    header{
-        flex-direction: column;
-    }
-    button{
-        margin-top: 30px;
-        background-color: pink;
-    }
-    body{
-        background-color:white;
-        color: pink;
-        background-size: cover;
-       }
-       *{
-        color:black;
-       }
 }
