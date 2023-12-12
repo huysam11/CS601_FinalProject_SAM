@@ -1,20 +1,7 @@
-const app = Vue.createApp({
-    template: `
-        <h1 @mouseover="changeMessage" @mouseleave="resetMessage">{{ message }}</h1>
-    `,
-    data() {
-        return {
-            message: 'About me'
-        };
-    },
-    methods: {
-        changeMessage() {
-            this.message = ' 😎'; // Replace with the emoji you want
-        },
-        resetMessage() {
-            this.message = 'About me';
-        }
-    },
-});
+let progress = document.getElementById('bar');
+let totalHeight = document.body.scrollHeight - window.innerHeight;
 
-app.mount('#app');
+window.onscroll = function () {
+    let progressHeight = (window.pageYOffset / totalHeight) * 100;
+    progress.style.height = progressHeight + "%";
+};
