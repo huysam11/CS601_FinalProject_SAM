@@ -1,5 +1,4 @@
 
-
 *{
     box-sizing: border-box;
     margin:0;
@@ -11,7 +10,6 @@
     padding: 0 20px; 
 }
 body {
-    background-color: #FCF6F5;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0 auto;
@@ -44,13 +42,16 @@ header{
     color: white;
 }
 button{
-    padding: 9px 25px;
-    background-color: black;
+    padding: 12px 36px;
+    background: linear-gradient(90deg, #755bea,#55e7fc);
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;;
    
 }
 
@@ -103,6 +104,44 @@ h1 {
     background: linear-gradient(to top, #008aff, #00ffe7);
     filter: blur(10px);
 }
+
+
+.wavy{
+    position: relative;
+    -webkit-box-reflect: below -12px linear-gradient(transparent, rgba(0,0,0,0.2));
+    display: flex;
+    justify-content: center;
+    margin:40px;
+}
+
+.wavy span{
+position: relative;
+display:inline-block;
+color: black;
+font-size: 2em;
+text-transform: uppercase;
+animation: animate 1s ease-in-out infinite;
+animation-delay: calc(0.1s *var(--i));
+}
+
+
+@keyframes animate
+{
+    0%
+    {
+        transform: translateY(0px);
+}
+    20%
+    {
+        transform: translateY(20px);
+}
+40%,100%
+    {
+        transform: translateY(0px);
+}
+}
+
+
 @media screen and (max-width: 1400px) {
     #scrollPath {
         width: 5px; /* Adjust the scrollbar width for smaller screens */
