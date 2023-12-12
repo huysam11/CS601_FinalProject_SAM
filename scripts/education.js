@@ -4,7 +4,7 @@ window.onload = () => {
   };
   
   document.addEventListener('click', () => { //Click event
-    const api = "./table.json";
+    const api = "https://raw.githubusercontent.com/huysam11/CS601_FinalProject_SAM/main/table.json";
     fetch(api)
       .then(response => {
         // Create a fetch request to return a promise
