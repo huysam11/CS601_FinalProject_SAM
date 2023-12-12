@@ -118,4 +118,7 @@
 .contact-form .submit-btn{
     float: none;
 }
+header{
+    padding: 0px;
+}
 }
