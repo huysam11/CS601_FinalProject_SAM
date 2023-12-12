@@ -30,4 +30,3 @@ window.onload = () => {
         console.error('Fetch Error:', error); // Handle errors
       });
   });
-  
