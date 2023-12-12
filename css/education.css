@@ -43,11 +43,24 @@ thead{
     border: 2px solid black; 
     flex-direction: column;
 }
+@media (max-width: 1024px) {
+    .container{
+        width: 100%;
+    }
+  
+    table{
+        width: 100%;
+    }
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+}
 
 
 
 /* Responsive styles */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     h1 {
         font-size: 28px;
         margin-top: 30px;
