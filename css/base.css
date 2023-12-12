@@ -88,6 +88,7 @@ h1 {
     top: 0;
     right: 0;
     padding: 7px;
+    height: 100%;
     background: linear-gradient(to top, #008aff, #00ffe7);
     animation: animate2 5s linear infinite;
 }
@@ -98,14 +99,13 @@ h1 {
     50%{filter:hue-rotate(360deg);
     }
 }
-
 #bar:before{
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: auto;
     background: linear-gradient(to top, #008aff, #00ffe7);
     filter: blur(10px);
 }
@@ -154,17 +154,18 @@ animation-delay: calc(0.1s *var(--i));
 }
 }
 
-
 @media screen and (max-width: 1400px) {
     #scrollPath {
-        width: 5px; /* Adjust the scrollbar width for smaller screens */
+        width: 5px;
     }
+
     #bar {
-        height: 50px;
-        width: 5px; /* Adjust the progress bar height for smaller screens */
+        height: 100%;
+        width: 5px; 
     }
+
     #bar:before,
     #bar:after {
-        filter: blur(5px); /* Adjust the blur effect for smaller screens */
+        filter: blur(5px); 
     }
 }

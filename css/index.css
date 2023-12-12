@@ -27,7 +27,7 @@ img {
     flex-direction: row;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
     .container{
         flex-direction: column;
     }
@@ -38,4 +38,8 @@ img {
         margin: 0px;
         padding: 1px;
     }
+    #bar{
+        height: 100%;
+    }
+
 }

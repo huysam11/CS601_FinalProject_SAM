@@ -37,6 +37,7 @@ h3 {
     margin-top: 10px;
 }
 
+
 @media screen and (max-width: 1200px) {
     .container2 {
         flex-direction: column;

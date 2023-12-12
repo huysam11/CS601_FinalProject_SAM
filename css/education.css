@@ -45,6 +45,7 @@ thead{
 }
 
 
+
 /* Responsive styles */
 @media (max-width: 768px) {
     h1 {
@@ -67,4 +68,8 @@ thead{
     margin: 0px;
     padding: 1px;
 }
+#bar{
+    height: 100%;
+}
+
 }
